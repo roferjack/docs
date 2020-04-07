@@ -29,7 +29,13 @@ module.exports = {
             { text: '掘金', link: 'https://juejin.im/user/5df5d3f4f265da33f718b434' }
           ]
         },               
-        { text: 'Github', link: 'https://github.com/roferjack' },
+        { text: '代码仓库', 
+          ariaLabel: '外部部下拉链接',
+          items: [
+            { text: 'Github', link: 'https://github.com/roferjack/docs' },
+            { text: 'Gitee', link: 'https://gitee.com/rofer_ky/docs' }
+          ]
+        },
       ],
       sidebar: 'auto', 
       //数组方式创建侧边栏
