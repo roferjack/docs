@@ -41,5 +41,14 @@ search: true
 ### 六.安装了官方的那些插件 
 按装插件后会多出lock文件，是锁定版本用的，不要管，但是要提交到代码仓[官方插件地址](https://vuepress.github.io/en/)
 1. [进入一个页面就有一个横条加载：nprogress](https://vuepress.github.io/en/plugins/nprogress/)
+2. [回到顶部：@vuepress/back-to-top](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-back-to-top.html#%E5%AE%89%E8%A3%85)
+3. [serwork服务 ：@vuepress/pwa](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html)
 
+
+### 七.安装了官方的坑
+ 1. back-to-top ：这垃圾前面没生效，后面不知道怎么的又可以了，反正一直都是bable方式配置
+ 2. @vuepress/pwa ：（1）manifest问题，有报错。（2）github的pages推送体验差因为网络问题，建议把代码更新在gitee尝试（已体验）
+ ![效果图一](assets/img/pwa-piture-one.png)
+ ![效果图二](assets/img/pwa-piture-two.png)
+ ![效果图三](assets/img/pwa-piture-three.png)
  ##### [回到主页](/) [教程](https://vuepress.vuejs.org/zh/guide/markdown.html#%E9%93%BE%E6%8E%A5)<!-- 跳转到根部的 README.md -->
