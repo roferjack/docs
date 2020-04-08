@@ -35,3 +35,11 @@ search: true
 
  1. [如何在GitHub、GitLab、Gitee、Coding上部署Hexo](https://www.jianshu.com/p/68feadec0a6f)
  2. [Vue 项目部署到GitHub Pages并同步到Gitee Pages](https://www.cnblogs.com/Marco-hui/p/12155936.html)
+
+
+
+### 六.安装了官方的那些插件 
+按装插件后会多出lock文件，是锁定版本用的，不要管，但是要提交到代码仓[官方插件地址](https://vuepress.github.io/en/)
+1. [进入一个页面就有一个横条加载：nprogress](https://vuepress.github.io/en/plugins/nprogress/)
+
+ ##### [回到主页](/) [教程](https://vuepress.vuejs.org/zh/guide/markdown.html#%E9%93%BE%E6%8E%A5)<!-- 跳转到根部的 README.md -->

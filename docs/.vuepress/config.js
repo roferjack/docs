@@ -115,6 +115,23 @@ module.exports = {
       lastUpdated: '更新时间', // string | boolean       
     },
     
-    base: '/docs/'
+    base: '/docs/',
+    plugins: [
+      'vuepress-plugin-nprogress',
+      [
+        'vuepress-plugin-zooming',
+        {
+          selector: '.theme-default-content img',
+          delay: 1000,
+          options: {
+            bgColor: 'black',
+            zIndex: 10000,
+          },
+        },
+
+      ],
+      '@vuepress/back-to-top'
+    ]
+
 
   }

@@ -4,7 +4,7 @@ heroImage: /assets/img/girl.jpg
 heroText: 消失烟雨之后，继续向前出发
 tagline: 弱鸡的艰难生活之路
 actionText: 进入我的笔记世界 →
-actionLink: /view/html/
+actionLink: /view/web/html/
 features:
 - title: 学习
   details: 面向百度，面向文档，面向朋友。

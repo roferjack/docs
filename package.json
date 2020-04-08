@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/roferjack/docs/issues"
   },
-  "homepage": "https://github.com/roferjack/docs#readme"
+  "homepage": "https://github.com/roferjack/docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "vuepress-plugin-nprogress": "^1.1.6",
+    "vuepress-plugin-zooming": "^1.1.7"
+  }
 }
