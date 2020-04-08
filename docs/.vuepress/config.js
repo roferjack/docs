@@ -129,7 +129,7 @@ module.exports = {
       [
         'vuepress-plugin-zooming',
         {
-          selector: '.theme-container img',
+          selector: '.theme-container img',//这个是类选择器
           delay: 1000,
           options: {
             bgColor: 'black',
@@ -147,7 +147,33 @@ module.exports = {
             buttonText: "刷新"
           }
         }
-      ]
+      ],
+      ['@vssue/vuepress-plugin-vssue',{
+          // 设置 `platform` 而不是 `api`
+          platform: 'github-v4',
+    
+          // 其他的 Vssue 配置
+          owner: 'roferjack',
+          repo: 'docs',
+          clientId: '3832d279cf1fe2e81bbd',
+          clientSecret: 'b2bcfda013c1d894b4696ed87fbfbd8ce7703f80',
+          autoCreateIssue: true,
+          locale: 'zh'
+        }, 
+      ],
+      // ['@vssue/vuepress-plugin-vssue',{
+      //   // 设置 `platform` 而不是 `api`
+      //   platform: 'gitee',
+  
+      //   // 其他的 Vssue 配置
+      //   owner: 'roferky',
+      //   repo: 'docs',
+      //   clientId: '7a9e527474205a97bb83a3b2005e0c7d7f1793f6f3790c4b53289b5947a608de',
+      //   clientSecret: '2103b48d4fd688d4ebaeb498b9d440d2506e463f14e710cf41d95485a7231145',
+      //   autoCreateIssue: true,
+      //   locale: 'zh'
+      //  }, 
+      // ]            
     ]
 
 
