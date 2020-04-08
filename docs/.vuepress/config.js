@@ -82,6 +82,6 @@ module.exports = {
       lastUpdated: '更新时间', // string | boolean       
     },
     
-    base: '/docs/'
+    // base: '/docs/'
 
   }
