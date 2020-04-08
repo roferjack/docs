@@ -1,5 +1,5 @@
 ---
-title: 我是js  a.md文件的主页标题(我在配置产生的)
+title: 梦想a页面
 search: true
 ---
 

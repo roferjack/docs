@@ -1,5 +1,5 @@
 ---
-title: 我是b.md文件的主页标题
+title: 梦想b页面
 search: true
 ---
 

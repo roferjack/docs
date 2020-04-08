@@ -1,5 +1,5 @@
 ---
-title: 我是html b.md文件的主页标题(我在配置产生的)
+title: 娱乐b页面
 search: true
 ---
 

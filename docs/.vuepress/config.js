@@ -7,8 +7,9 @@ module.exports = {
       ['meta', { name: 'author', content:'消失的烟雨' }],  
       ['meta', { name: 'keywords', content:'消失的烟雨,伪前端的咸鱼' }]      
     ],
+ 
     themeConfig: {
-      logo: '/assets/img/logo.png',
+      logo: 'assets/img/logo.png',
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Guide', link: '/about' },
@@ -16,11 +17,19 @@ module.exports = {
         { text: '前端', 
           ariaLabel: '内部下拉链接',
           items: [
-            { text: 'html', link: '/view/html/' },
-            { text: 'css', link: '/view/css/' },
-            { text: 'js', link: '/view/js/' }
+            { text: 'html', link: '/view/web/html/' },
+            { text: 'css', link: '/view/web/css/' },
+            { text: 'js', link: '/view/web/js/' }
           ]  
-        },      
+        },   
+        { text: '生活', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: '美食', link: '/view/life/foods/' },
+            { text: '娱乐', link: '/view/life/play/' },
+            { text: '梦想', link: '/view/life/dream/' }
+          ]  
+        },            
         {
           text: '驻扎的部落',
           ariaLabel: '外部部下拉链接',
@@ -56,32 +65,56 @@ module.exports = {
       // ]
           //对象方式创建侧边栏
       sidebar: {
-          '/view/html/': [
+          '/view/web/html/': [
             '',
-            'a',
-            'b',
+            'html-4',
+            'html-5',
 
 
          ],          
-          '/view/css/': [
+          '/view/web/css/': [
               '',
-              'a',
-              'b',
+              'css-vue',
+              'css-react',
+              'css-select'
 
 
           ],   
-          '/view/js/': [
+          '/view/web/js/': [
+            '',
+            'promise',
+            'this',
+            'work'
+
+
+          ],  
+          
+          '/view/life/dream/': [
             '',
             'a',
             'b',
 
 
-          ],              
+          ],
+          '/view/life/play/': [
+            '',
+            'a',
+            'b',
+
+
+          ],
+          '/view/life/foods/': [
+            '',
+            'a',
+            'b',
+
+
+          ],                              
 
       },
       lastUpdated: '更新时间', // string | boolean       
     },
     
-    // base: '/docs/'
+    base: '/docs/'
 
   }
