@@ -30,6 +30,7 @@
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.0",
     "@vssue/api-github-v4": "^1.4.0",
-    "@vssue/vuepress-plugin-vssue": "^1.4.3"
+    "@vssue/vuepress-plugin-vssue": "^1.4.3",
+    "countup.js": "^2.0.4"
   }
 }

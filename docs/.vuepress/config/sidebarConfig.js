@@ -44,6 +44,21 @@ module.exports = {
       'b',
 
 
-    ],                              
+    ],  
+    '/view/record/customizeComponent/': [
+        '',
+        'HelloWorld',
+        'CountUp',
+  
+  
+    ], 
+      '/view/record/designProject/': [
+        '',
+        'markdown',
+        'git',
+        'plugin',
+  
+  
+    ],                                       
 
 }

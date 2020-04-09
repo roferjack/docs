@@ -33,5 +33,11 @@ module.exports =  [
       ]
     },
     { text: '简历', link: '/resume' },          
-    { text: 'Record', link: '/record' },
+    { text: 'Record',
+      ariaLabel: '内部下拉链接',
+      items: [
+        { text: '自定义组件', link: '/view/record/customizeComponent/' },
+        { text: '项目的坑', link: '/view/record/designProject/' },
+      ] 
+    },
   ]
