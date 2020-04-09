@@ -174,7 +174,13 @@ module.exports = {
       //   autoCreateIssue: true,
       //   locale: 'zh'
       //  }, 
-      // ]            
+      // ]
+      [
+        '@vuepress/google-analytics',
+        {
+          'ga': 'UA-163182007-1'
+        }
+      ],
     ]
 
 
