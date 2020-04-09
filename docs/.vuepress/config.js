@@ -20,8 +20,7 @@ module.exports = {
       logo: 'assets/img/logo.png',
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Guide', link: '/about' },
-        { text: '简历', link: '/resume' },        
+        { text: 'Guide', link: '/about' },      
         { text: '前端', 
           ariaLabel: '内部下拉链接',
           items: [
@@ -53,6 +52,8 @@ module.exports = {
             { text: 'Gitee', link: 'https://gitee.com/rofer_ky/docs' }
           ]
         },
+        { text: '简历', link: '/resume' },          
+        { text: 'Record', link: '/record' },
       ],
       sidebar: 'auto', 
       //数组方式创建侧边栏
@@ -161,7 +162,7 @@ module.exports = {
           locale: 'zh'
         }, 
       ],
-      // ['@vssue/vuepress-plugin-vssue',{
+      // ['@vssue/vuepress-plugin-vssue',{//这是gitee的设置，由于官方原因暂时搁置
       //   // 设置 `platform` 而不是 `api`
       //   platform: 'gitee',
   
