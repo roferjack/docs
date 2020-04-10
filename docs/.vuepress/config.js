@@ -17,6 +17,7 @@ module.exports = {
     
     base: '/docs/',
     plugins: pluginConfig,
+  
 
 
   }

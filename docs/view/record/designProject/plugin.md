@@ -21,6 +21,8 @@ search: true
  ![效果图一](../../../.vuepress/public/assets/img/pwa-piture-one.png)
  ![效果图二](../../../.vuepress/public/assets/img/pwa-piture-two.png)
  ![效果图三](../../../.vuepress/public/assets/img/pwa-piture-three.png)
+ ![妹子](../../../.vuepress/public/assets/img/girl.jpg)
+ <img :src="$withBase('../../../.vuepress/public/assets/img/girl.jpg')" alt="foo">
  3.vssue ：由于gitee问题，目前只实现了github的账号评论功能，还有就是没有全局设置vssue组件
  
  ### [回到主页](/) [教程](https://vuepress.vuejs.org/zh/guide/markdown.html#%E9%93%BE%E6%8E%A5)<!-- 跳转到根部的 README.md -->
