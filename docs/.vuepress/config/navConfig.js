@@ -4,9 +4,29 @@ module.exports =  [
     { text: '前端', 
       ariaLabel: '内部下拉链接',
       items: [
-        { text: 'html', link: '/view/web/html/' },
-        { text: 'css', link: '/view/web/css/' },
-        { text: 'js', link: '/view/web/js/' }
+        { text: 'html', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: 'html4', link: '/view/web/html/html4/' },
+            { text: 'html5', link: '/view/web/html/html5/' },
+
+          ]         
+        },
+        { text: 'css', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: 'css-2', link: '/view/web/css/css-2/' },
+            { text: 'css-3', link: '/view/web/css/css-3/' },
+          ]         
+        },
+        { text: 'javascript', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: 'base', link: '/view/web/javascript/base/' },
+            { text: 'vue', link: '/view/web/javascript/vue/' },
+            { text: 'react', link: '/view/web/javascript/react/' }
+          ]                
+        }
       ]  
     },   
     { text: '生活', 

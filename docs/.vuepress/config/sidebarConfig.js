@@ -1,21 +1,33 @@
 //对象方式创建侧边栏
 module.exports = {
-    '/view/web/html/': [
+    //前端 --html --------------------------------    
+    '/view/web/html/html4/': [
       '',
-      'html-4',
-      'html-5',
+      'html4Tag',
 
 
-   ],          
-    '/view/web/css/': [
+
+   ], 
+   '/view/web/html/html5/': [
+    '',
+    'html5Tag',
+
+
+   ],   
+    //前端 - css--------------------------------         
+    '/view/web/css/css-2/': [
         '',
-        'css-vue',
-        'css-react',
-        'css-select'
-
+        'select',
 
     ],   
-    '/view/web/js/': [
+    '/view/web/css/css-3/': [
+      '',
+      'select',
+
+    ],  
+         
+    //前端 - javascript --------------------------------
+    '/view/web/javascript/base/': [
       '',
       'promise',
       'this',
@@ -23,6 +35,19 @@ module.exports = {
 
 
     ],  
+    '/view/web/javascript/vue/': [
+      '',
+      'setGlobalCss',
+
+
+    ],  
+    '/view/web/javascript/react/': [
+      '',
+      'setGlobalCss',
+
+
+    ],  
+    // ---------life - --------------------------------
     
     '/view/life/dream/': [
       '',
@@ -45,6 +70,7 @@ module.exports = {
 
 
     ],  
+    // ---------record  --------------------------------    
     '/view/record/customizeComponent/': [
         '',
         'HelloWorld',
