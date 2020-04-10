@@ -16,3 +16,9 @@ footer: MIT Licensed | Copyright © 2020-present ky
 ---
 ##### 一.该项目已上传github，喜欢可以自行下载修改！！！
 
+ ## 评论功能:
+
+##### 一.目前在github的域名下才有评论功能[https://roferjack.github.io/docs/](https://roferjack.github.io/docs/)
+gitee授权有问题[Gitee OAuth 授权出错](https://github.com/meteorlxy/vssue/issues/60)
+
+<Vssue/>
