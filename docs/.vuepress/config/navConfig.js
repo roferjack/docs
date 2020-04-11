@@ -57,7 +57,7 @@ module.exports =  [
       ariaLabel: '内部下拉链接',
       items: [
         { text: '自定义组件', link: '/view/record/customizeComponent/' },
-        { text: '项目的坑', link: '/view/record/designProject/' },
+        { text: '项目记录', link: '/view/record/designProject/' },
       ] 
     },
   ]

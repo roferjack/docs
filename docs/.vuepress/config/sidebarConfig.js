@@ -83,6 +83,8 @@ module.exports = {
         'markdown',
         'git',
         'plugin',
+        'personalPlugin',
+        'style',
   
   
     ],                                       
