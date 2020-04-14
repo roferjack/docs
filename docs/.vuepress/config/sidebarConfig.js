@@ -38,12 +38,14 @@ module.exports = {
     '/view/web/javascript/vue/': [
       '',
       'setGlobalCss',
+      'componentPass',
 
 
     ],  
     '/view/web/javascript/react/': [
       '',
       'setGlobalCss',
+      'componentPass',
 
 
     ],  
@@ -53,6 +55,7 @@ module.exports = {
       '',
       'a',
       'b',
+      'c',
 
 
     ],
@@ -70,6 +73,12 @@ module.exports = {
 
 
     ],  
+    '/view/life/CreditCard/': [
+      '',
+      'a',
+
+
+    ],     
     // ---------record  --------------------------------    
     '/view/record/customizeComponent/': [
         '',

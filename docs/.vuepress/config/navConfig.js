@@ -34,7 +34,8 @@ module.exports =  [
       items: [
         { text: '美食', link: '/view/life/foods/' },
         { text: '娱乐', link: '/view/life/play/' },
-        { text: '梦想', link: '/view/life/dream/' }
+        { text: '梦想', link: '/view/life/dream/' },
+        { text: '信用卡', link: '/view/life/CreditCard/' }        
       ]  
     },            
     {
@@ -49,7 +50,7 @@ module.exports =  [
       ariaLabel: '外部部下拉链接',
       items: [
         { text: 'Github', link: 'https://github.com/roferjack/docs' },
-        { text: 'Gitee', link: 'https://gitee.com/rofer_ky/docs' }
+        { text: 'Gitee', link: 'https://gitee.com/roferky/docs' }
       ]
     },
     { text: '简历', link: '/resume' },          
