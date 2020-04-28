@@ -26,7 +26,14 @@ module.exports =  [
             { text: 'vue', link: '/view/web/javascript/vue/' },
             { text: 'react', link: '/view/web/javascript/react/' }
           ]                
-        }
+        },
+        { text: 'git', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: 'github', link: '/view/web/git/github/' },
+            { text: 'gitlab', link: '/view/web/git/gitlab/' },
+          ]                
+        }        
       ]  
     },   
     { text: '生活', 

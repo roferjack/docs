@@ -23,6 +23,7 @@ search: true
 
 
 ## 二.子传父
+#### 利用[v-on](https://cn.vuejs.org/v2/api/#vm-on)监听实例（即子组件）自定义事件，其回调函数会接收所有传入事件触发函数的额外参数[$emit](https://cn.vuejs.org/v2/api/#vm-emit)在子组件触发事件，父组件内v-on接收
 
 ## 三.兄弟传值
 
@@ -31,3 +32,5 @@ search: true
 ## 五.页面传值
 
 ## 六.
+
+

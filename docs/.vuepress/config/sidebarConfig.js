@@ -49,6 +49,19 @@ module.exports = {
 
 
     ],  
+    // ---------git  --------------------------------    
+    '/view/web/git/github/': [
+      '',
+      'firstCommit',
+
+
+    ],   
+    '/view/web/git/gitlab/': [
+      '',
+      'firstCommit',
+
+
+    ],     
     // ---------life - --------------------------------
     
     '/view/life/dream/': [
@@ -79,6 +92,7 @@ module.exports = {
 
 
     ],     
+    
     // ---------record  --------------------------------    
     '/view/record/customizeComponent/': [
         '',
