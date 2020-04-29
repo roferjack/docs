@@ -62,6 +62,15 @@ module.exports = {
 
 
     ],     
+    // --------- algorithm  --------------------------------    
+    '/view/web/algorithm/project/': [
+      '',
+
+    ],   
+    '/view/web/algorithm/study/': [
+      '',
+
+    ],    
     // ---------life - --------------------------------
     
     '/view/life/dream/': [

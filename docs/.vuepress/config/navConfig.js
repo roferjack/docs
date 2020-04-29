@@ -27,13 +27,21 @@ module.exports =  [
             { text: 'react', link: '/view/web/javascript/react/' }
           ]                
         },
+        { text: '算法', 
+          ariaLabel: '内部下拉链接',
+          items: [
+            { text: '项目', link: '/view/web/algorithm/project/' },
+            { text: '学习', link: '/view/web/algorithm/study/' },
+          ]                
+        },
         { text: 'git', 
           ariaLabel: '内部下拉链接',
           items: [
             { text: 'github', link: '/view/web/git/github/' },
             { text: 'gitlab', link: '/view/web/git/gitlab/' },
           ]                
-        }        
+        },        
+
       ]  
     },   
     { text: '生活', 
