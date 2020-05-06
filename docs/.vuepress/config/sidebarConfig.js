@@ -49,6 +49,12 @@ module.exports = {
 
 
     ],  
+    '/view/web/javascript/plugin/': [
+      '',
+      'echarts',
+
+
+    ],    
     // ---------git  --------------------------------    
     '/view/web/git/github/': [
       '',

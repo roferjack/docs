@@ -24,7 +24,8 @@ module.exports =  [
           items: [
             { text: 'base', link: '/view/web/javascript/base/' },
             { text: 'vue', link: '/view/web/javascript/vue/' },
-            { text: 'react', link: '/view/web/javascript/react/' }
+            { text: 'react', link: '/view/web/javascript/react/' },
+            { text: 'plugin', link: '/view/web/javascript/plugin/' }            
           ]                
         },
         { text: '算法', 
@@ -40,7 +41,8 @@ module.exports =  [
             { text: 'github', link: '/view/web/git/github/' },
             { text: 'gitlab', link: '/view/web/git/gitlab/' },
           ]                
-        },        
+        }
+           
 
       ]  
     },   
