@@ -52,6 +52,7 @@ module.exports = {
     '/view/web/javascript/plugin/': [
       '',
       'echarts',
+      'html2pdf.js'
 
 
     ],    
