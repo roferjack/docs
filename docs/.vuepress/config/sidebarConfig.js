@@ -50,6 +50,7 @@ module.exports = {
       'setGlobalCss',
       'componentPass',
       'reactLibrary',
+      'projectProblem'
 
 
     ],  

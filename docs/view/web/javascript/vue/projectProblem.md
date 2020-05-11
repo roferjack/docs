@@ -251,7 +251,9 @@ export function export_json_to_excel({
 
 
 ## 二。导出pdf
-1. 目前暂时是后台给接口，前端直接给参数get请求下载
+1.后端方法： 目前暂时是后台给接口，前端直接给参数get请求下载
 ```js
 window.open('https://xxx.com?name="?"')
 ```
+2.纯前端方法： 使用这个插件 [html2pdf.js](https://github.com/eKoopmans/html2pdf.js)
+- [教程](../plugin/html2pdf.js.md)
