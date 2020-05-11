@@ -18,3 +18,8 @@ search: true
 ## 三.在react中安装使用
 1. [网友方法](https://www.jianshu.com/p/3982ed62dcba)
 2. [别人封装的插件echarts-for-react](https://blog.csdn.net/gongch0604/article/details/833461012)
+
+## 四.使用的一些图
+1. 饼状图
+2. 条形图
+3. 折线图

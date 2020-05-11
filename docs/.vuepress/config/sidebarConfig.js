@@ -37,8 +37,11 @@ module.exports = {
     ],  
     '/view/web/javascript/vue/': [
       '',
+      'getProjectTemplate',
       'setGlobalCss',
       'componentPass',
+      'vueLibrary',
+      'projectProblem',
 
 
     ],  
@@ -46,6 +49,7 @@ module.exports = {
       '',
       'setGlobalCss',
       'componentPass',
+      'reactLibrary',
 
 
     ],  
