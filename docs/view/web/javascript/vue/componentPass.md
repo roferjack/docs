@@ -20,10 +20,16 @@ search: true
 
 (2). 这里传值可以是<span style="font-weight:700">静态的(像html标签一样添加属性)</span><span style="color:red">动态的（v-bind绑定动态追）</span>[地址](https://cn.vuejs.org/v2/guide/components-props.html#%E4%BC%A0%E9%80%92%E9%9D%99%E6%80%81%E6%88%96%E5%8A%A8%E6%80%81-Prop)
 
+(3)[父组件中调用子组件的方法](https://www.cnblogs.com/yuzhongyu/p/10825824.html)
 
 
 ## 二.子传父
 #### 利用[v-on](https://cn.vuejs.org/v2/api/#vm-on)监听实例（即子组件）自定义事件，其回调函数会接收所有传入事件触发函数的额外参数[$emit](https://cn.vuejs.org/v2/api/#vm-emit)在子组件触发事件，父组件内v-on接收
+#### 1.具体操作
+  <img :src="$withBase('/assets/vueImg/emit1.png')" alt="图一">
+
+#### 2.拓展
+- [子组件调用父组件的方法](https://www.cnblogs.com/jin-zhe/p/9523782.html)
 
 ## 三.兄弟传值
 
